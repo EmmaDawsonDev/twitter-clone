@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #5c1d80;
+}
+
+.navbar {
+  border-right: 1px solid rgba(0,0,0,0.2);
+  flex: 1;
+}
+
+.nav {
+  display: flex;
+  margin: 50px;
+}
+
+i {
+  font-size: 1.5rem;
+  
+}
+
+.nav p {
+  font-size: 1.2rem;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-left: 20px;
+}
+
+.btn {
+  background: #5c1d80;
+  padding: 1em 3em;
+  margin: 50px;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem;
+  
+}
+
+a.btn {
+  display: block;
+  text-align: center;
+}
+
+main {
+  flex: 3;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+
+
+h2 {
+  padding: 0 10px 20px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.compose-tweet {
+  border-bottom: 10px solid rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: flex-start;
+  min-height: 120px;
+}
+
+
+.profile-icon {
+  max-width: 50px;
+  padding: 0 10px;
+  border-radius: 50%;
+  align-self: flex-start;
+}
+
+.tweet-content {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.chat-btn {
+  background: #5c1d80;
+  padding: 1em 3em;
+  align-self: flex-end;
+  border-radius: 100px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.8rem;
+  margin: 10px;
+}
+
+.placeholder {
+  color: rgba(0,0,0,0.5);
+}
+
+.add-btns i {
+  color: #5c1d80;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+.trends {
+  flex: 2;
+}
+
+input[type="search"] {
+  background-color: rgba(92,29,128,0.2);
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 100px;
+  width: 90%;
+}
+
+.grey-box {
+  background-color: rgba(92,29,128,0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  }
+
+.grey-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.flex-list {
+  display: flex;
+}
+
+.flex-list > * {
+  flex: 1;
+}
